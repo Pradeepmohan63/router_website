@@ -1,0 +1,35 @@
+
+#banner_container{
+	background:linear-gradient(#00000079,#00000079), url('../../../public/img/slide.jpg');
+	height: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.content_sec{
+	color:white;
+}
+
+.content_sec h1{
+	font-size:48px;
+	padding:20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.content_sec p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height:1.5;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
+.primaryButton {
+	display: flex;
+	flex-direction: row;
+}
+
+.primaryButton button{
+	margin: 10px;
+}
